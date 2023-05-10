@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discordgpt"
+version = "0.1.0"
+authors = [{name = "Aljo"}]
+license = {file = "LICENSE"}
+keywords = ["ChatGPT", "Discord", "bot", "openai"]
+readme = "README.md"
+description = "A package for making a Discord ChatGPT bot"
+dependencies = ["openai", "discord.py", "colorama"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Communications :: Chat",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Aljoberg/DiscordGPT"
+"Repository" = "https://github.com/Aljoberg/DiscordGPT"
